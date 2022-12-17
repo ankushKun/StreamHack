@@ -848,6 +848,7 @@ GameObject:
   - component: {fileID: 504460125}
   - component: {fileID: 504460127}
   - component: {fileID: 504460126}
+  - component: {fileID: 504460128}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -873,7 +874,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -9, y: 40}
-  m_SizeDelta: {x: 197.0542, y: 185.3781}
+  m_SizeDelta: {x: 500, y: 185.3781}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &504460126
 MonoBehaviour:
@@ -895,13 +896,33 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'MLH Fellowship
+  m_text: '1. <link="https://summerofcode.withgoogle.com">Google Summer of Code</link>
 
-    GSOC
+    2.
+    <link="https://fellowship.mlh.io">MLH Fellowship</link>
 
-    MLH Prep
+    3. <link="https://www.outreachy.org">Outreachy
+    Mentorship</link>
 
-    LFX Mentorship'
+    4. <link="https://www.summerofbitcoin.org">Summer of Bitcoin</link>
+
+    5.
+    <link="https://developers.google.com/season-of-docs">Google Season of Docs</link>
+
+    6.
+    <link="https://lfx.linuxfoundation.org/tools/mentorship">LFX Mentorship</link>
+
+    7.
+    <link="https://acehacker.com/microsoft/engage2022">Microsoft Engage</link>
+
+    8.
+    <link="https://education.github.com/students">GitHub Externship</link>
+
+    9.
+    <link="https://season.kde.org">Season of KDE</link>
+
+    10. <link="https://www.openmainframeproject.org">Open
+    Mainframe Project Mentorship Program</link>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -978,6 +999,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504460124}
   m_CullTransparentMesh: 1
+--- !u!114 &504460128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504460124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4f77d4a6c4d4d0d9c0d78fe0443a64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1349461229}
+  mainText: {fileID: 504460126}
 --- !u!1 &647190170
 GameObject:
   m_ObjectHideFlags: 0
@@ -1285,7 +1320,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10, y: -92}
+  m_AnchoredPosition: {x: -10, y: -275}
   m_SizeDelta: {x: 157.4306, y: 58.8408}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &863118244
@@ -2755,7 +2790,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972744671}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48529b34a422143c1835b20c7b6592d0, type: 3}
   m_Name: 
@@ -2767,7 +2802,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972744671}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -2823,7 +2858,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972744671}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
