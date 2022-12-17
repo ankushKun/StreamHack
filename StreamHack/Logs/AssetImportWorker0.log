@@ -1,0 +1,354 @@
+Unity Editor version:    2022.2.1f1 (4fead5835099)
+Branch:                  2022.2/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.15.7 (Build 19H2026)
+Darwin version:          19.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/ankush/Developer/Gamedev/StreamHack/StreamHack
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60825
+Successfully changed project path to: /Users/ankush/Developer/Gamedev/StreamHack/StreamHack
+/Users/ankush/Developer/Gamedev/StreamHack/StreamHack
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4581305792] Host "[IP] 192.168.233.80 [Port] 0 [Flags] 2 [Guid] 967294697 [EditorId] 967294697 [Version] 1048832 [Id] OSXEditor(0,Ankushs-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4581305792] Host "[IP] 192.168.233.80 [Port] 0 [Flags] 2 [Guid] 967294697 [EditorId] 967294697 [Version] 1048832 [Id] OSXEditor(0,Ankushs-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 33.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.1f1 (4fead5835099)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ankush/Developer/Gamedev/StreamHack/StreamHack/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Graphics 6000 (low power)
+Forcing user selected device: Intel(R) Iris(TM) Graphics 6000 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.008279 seconds.
+- Loaded All Assemblies, in  1.363 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.004 seconds
+Domain Reload Profiling:
+	ReloadAssembly (830ms)
+		BeginReloadAssembly (358ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (367ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (512ms)
+				TypeCache.Initialize (511ms)
+					TypeCache.ScanAssembly (507ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (773ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (25ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (544ms)
+				ProcessInitializeOnLoadMethodAttributes (173ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/ankush/Developer/Gamedev/StreamHack/StreamHack/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ankush/Developer/Gamedev/StreamHack/StreamHack/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.640 seconds
+Refreshing native plugins compatible for Editor in 8.37 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.932 seconds
+Domain Reload Profiling:
+	ReloadAssembly (634ms)
+		BeginReloadAssembly (426ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (115ms)
+		LoadAllAssembliesAndSetupDomain (2006ms)
+			LoadAssemblies (338ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1831ms)
+				TypeCache.Initialize (1041ms)
+					TypeCache.ScanAssembly (1029ms)
+				ResolveRequiredComponents (23ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (19ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (1063ms)
+				ProcessInitializeOnLoadMethodAttributes (152ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 10.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (59.5 KB). Loaded Objects now: 4717.
+Memory consumption went from 0.76 GB to 0.76 GB.
+Total: 12.481498 ms (FindLiveObjects: 0.871360 ms CreateObjectMapping: 0.679324 ms MarkObjects: 10.541606 ms  DeleteObjects: 0.384346 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9070.015033 seconds.
+  path: Assets/Images/bg.gif
+  artifactKey: Guid(1409c14c622f74c4b80039f279712676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Images/bg.gif using Guid(1409c14c622f74c4b80039f279712676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84241b6364b2c92a2bcef8e8a179cab0') in 1.012745 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/ankush/Developer/Gamedev/StreamHack/StreamHack/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ankush/Developer/Gamedev/StreamHack/StreamHack/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.845 seconds
+Refreshing native plugins compatible for Editor in 12.27 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.426 seconds
+Domain Reload Profiling:
+	ReloadAssembly (398ms)
+		BeginReloadAssembly (247ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (124ms)
+		LoadAllAssembliesAndSetupDomain (1448ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1395ms)
+				TypeCache.Initialize (584ms)
+					TypeCache.ScanAssembly (577ms)
+				ResolveRequiredComponents (27ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1065ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (44ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (646ms)
+				ProcessInitializeOnLoadMethodAttributes (169ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (1ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4235 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (37.2 KB). Loaded Objects now: 4726.
+Memory consumption went from 0.76 GB to 0.76 GB.
+Total: 5.688544 ms (FindLiveObjects: 0.545401 ms CreateObjectMapping: 0.419736 ms MarkObjects: 4.661892 ms  DeleteObjects: 0.059882 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2092.860098 seconds.
+  path: Assets/Images/ezgif.com-gif-maker.png
+  artifactKey: Guid(74d7c272ab9e249b08279a96d1836abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Images/ezgif.com-gif-maker.png using Guid(74d7c272ab9e249b08279a96d1836abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941b853ddc38480d7e5ad4b10ab9336a') in 1.136514 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 28.846537 seconds.
+  path: Assets/Images/ezgif.com-gif-maker.png
+  artifactKey: Guid(74d7c272ab9e249b08279a96d1836abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Images/ezgif.com-gif-maker.png using Guid(74d7c272ab9e249b08279a96d1836abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dff25c9e884b9992641e9d688c1825') in 0.019964 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 350.501991 seconds.
+  path: Assets/Images/ezgif.com-gif-maker.png
+  artifactKey: Guid(74d7c272ab9e249b08279a96d1836abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Images/ezgif.com-gif-maker.png using Guid(74d7c272ab9e249b08279a96d1836abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1d8d646be4a8d8a65b3da7903ee701') in 1.209474 seconds 
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 32.305134 seconds.
+  path: Assets/Images/ezgif.com-gif-maker.png
+  artifactKey: Guid(74d7c272ab9e249b08279a96d1836abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Images/ezgif.com-gif-maker.png using Guid(74d7c272ab9e249b08279a96d1836abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f8585e9690c8275456206cc5a21843') in 1.281957 seconds 
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 670.037321 seconds.
+  path: Assets/Images/bg.png
+  artifactKey: Guid(ae6235c8a4121463ba5bc55ea70a42db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Images/bg.png using Guid(ae6235c8a4121463ba5bc55ea70a42db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f8c59ba99071b9262f745ff0d137f5') in 0.096912 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1854.197141 seconds.
+  path: Assets/Images/bg.png
+  artifactKey: Guid(ae6235c8a4121463ba5bc55ea70a42db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Images/bg.png using Guid(ae6235c8a4121463ba5bc55ea70a42db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c3388722c3853c4568646fa0f10b90') in 0.048235 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1222.725619 seconds.
+  path: Assets/Images/play.png
+  artifactKey: Guid(cabf77be0e2b44d0bbf10da18e22e334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Images/play.png using Guid(cabf77be0e2b44d0bbf10da18e22e334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb75c5a6c719843bd5a0644adaa60272') in 0.047838 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/ankush/Developer/Gamedev/StreamHack/StreamHack/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ankush/Developer/Gamedev/StreamHack/StreamHack/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.138 seconds
+Refreshing native plugins compatible for Editor in 10.28 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.005 seconds
+Domain Reload Profiling:
+	ReloadAssembly (580ms)
+		BeginReloadAssembly (411ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (248ms)
+		LoadAllAssembliesAndSetupDomain (2559ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2503ms)
+				TypeCache.Initialize (1459ms)
+					TypeCache.ScanAssembly (1445ms)
+				ResolveRequiredComponents (25ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (2100ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (54ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (304ms)
+				ProcessInitializeOnLoadAttributes (1516ms)
+				ProcessInitializeOnLoadMethodAttributes (173ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 8.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4235 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (36.2 KB). Loaded Objects now: 4733.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 13.196042 ms (FindLiveObjects: 1.688856 ms CreateObjectMapping: 2.040699 ms MarkObjects: 9.341459 ms  DeleteObjects: 0.122640 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
