@@ -61,4 +61,9 @@ public class TextLink : MonoBehaviour, IPointerClickHandler
     {
         Application.OpenURL(url);
     }
+
+    public void onValueChange(int val)
+    {
+        Debug.Log(val);
+    }
 }
