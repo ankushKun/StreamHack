@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class coinMove : MonoBehaviour
 {
-    float moveSpeed = 2.5f;
+    public float moveSpeed = 2.5f;
     public bool dontDelete = false;
 
     public BoxCollider2D player;

@@ -9,7 +9,11 @@ public class ChatHandler : MonoBehaviour
     public ChatManager chat;
 
     public TMP_InputField inputField;
-    // Start is called before the first frame update
+
+    public enemyMove enemy;
+
+
+
     void Start()
     {
 
@@ -24,8 +28,13 @@ public class ChatHandler : MonoBehaviour
             if (currentMessage != "")
             {
                 sendCurrentMessage();
+                if (enemy.waitingForAnswer)
+                {
+                    enemy.checkAnswer(currentMessage);
+                }
                 setCurrentMessage("");
                 inputField.text = "";
+
             }
         }
 

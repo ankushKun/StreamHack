@@ -7,6 +7,10 @@ public class runCycle : MonoBehaviour
 {
     public Sprite[] runSprites;
     SpriteRenderer spriteRenderer;
+
+    public Sprite idle;
+
+    public bool isIdle = false;
     private int i = 0;
 
     public int speed = 5;
@@ -21,14 +25,21 @@ public class runCycle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.frameCount % speed == 0)
+        if (!isIdle)
         {
-            spriteRenderer.sprite = runSprites[i];
-            i++;
-            if (i >= runSprites.Length)
+            if (Time.frameCount % speed == 0)
             {
-                i = 0;
+                spriteRenderer.sprite = runSprites[i];
+                i++;
+                if (i >= runSprites.Length)
+                {
+                    i = 0;
+                }
             }
+        }
+        else
+        {
+            spriteRenderer.sprite = idle;
         }
     }
 

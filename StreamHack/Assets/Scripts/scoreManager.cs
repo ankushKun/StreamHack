@@ -35,6 +35,13 @@ public class scoreManager : MonoBehaviour
         energyText.text = energyTextStr + energy;
     }
 
+    public void decrementEnergy()
+    {
+        energy -= 10;
+        energyText.text = energyTextStr + energy;
+
+    }
+
     // Update is called once per frame
     void Update()
     {

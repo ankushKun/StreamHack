@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class bgMove : MonoBehaviour
 {
-    float moveSpeed = 2.5f;
+    public float moveSpeed = 2.5f;
     public GameObject spawnPos;
 
     // Start is called before the first frame update

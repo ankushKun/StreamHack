@@ -7,7 +7,10 @@ public class coinSpawner : MonoBehaviour
 {
     public GameObject spawnExample;
 
+    public bool spawn = true;
+
     public GameObject enemy;
+    public Transform enemySpawn;
 
     public Transform[] spawnPositions = new Transform[3];
     public Sprite[] spawnableSprites;
@@ -21,23 +24,26 @@ public class coinSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.frameCount % 100 == 0)
+        if (spawn)
         {
-            int spriteIdx = Random.Range(0, spawnableSprites.Length);
-            int spawnPosIdx = Random.Range(0, spawnPositions.Length);
+            if (Time.frameCount % 100 == 0)
+            {
+                int spriteIdx = Random.Range(0, spawnableSprites.Length);
+                int spawnPosIdx = Random.Range(0, spawnPositions.Length);
 
-            GameObject coin = Instantiate(spawnExample);
-            Sprite toSpawn = spawnableSprites[spriteIdx];
-            coin.GetComponent<SpriteRenderer>().sprite = toSpawn;
-            coin.GetComponent<coinMove>().dontDelete = false;
-            Transform pos = spawnPositions[spawnPosIdx];
-            coin.transform.position = pos.position;
-        }
+                GameObject coin = Instantiate(spawnExample);
+                Sprite toSpawn = spawnableSprites[spriteIdx];
+                coin.GetComponent<SpriteRenderer>().sprite = toSpawn;
+                coin.GetComponent<coinMove>().dontDelete = false;
+                Transform pos = spawnPositions[spawnPosIdx];
+                coin.transform.position = pos.position;
+            }
 
-        if (Time.frameCount % 10000 == 0)
-        {
-
-
+            if (Time.frameCount % 2000 == 0)
+            {
+                enemy.SetActive(true);
+                enemy.transform.position = enemySpawn.position;
+            }
         }
 
     }

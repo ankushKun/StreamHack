@@ -19,6 +19,8 @@ public class ChatManager : MonoBehaviour
     public TMP_Text in3;
     public TMP_Text in4;
 
+    public enemyMove enemy;
+
 
     private void OnMessageReceived(IStreamChannel channel, IStreamMessage message)
     {
@@ -87,7 +89,10 @@ public class ChatManager : MonoBehaviour
 
     public async Task SendMessageAsync(string text)
     {
-        var message = await _mainChannel.SendNewMessageAsync(text);
+        if (!enemy.waitingForAnswer)
+        {
+            var message = await _mainChannel.SendNewMessageAsync(text);
+        }
         // Debug.Log($"Message sent: {message.Text}");
     }
 
