@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerFloorMove : MonoBehaviour
 {
@@ -43,6 +44,13 @@ public class playerFloorMove : MonoBehaviour
         //     Debug.Log("rest");
         //     transform.position = Vector3.MoveTowards(transform.position, restPos.transform.position, step);
         // }
+
+        // exit
+
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
 
 
     }
