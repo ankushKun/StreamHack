@@ -7,6 +7,8 @@ public class coinSpawner : MonoBehaviour
 {
     public GameObject spawnExample;
 
+    public GameObject enemy;
+
     public Transform[] spawnPositions = new Transform[3];
     public Sprite[] spawnableSprites;
 
@@ -30,6 +32,11 @@ public class coinSpawner : MonoBehaviour
             coin.GetComponent<coinMove>().dontDelete = false;
             Transform pos = spawnPositions[spawnPosIdx];
             coin.transform.position = pos.position;
+        }
+
+        if (Time.frameCount % 10000 == 0)
+        {
+
 
         }
 

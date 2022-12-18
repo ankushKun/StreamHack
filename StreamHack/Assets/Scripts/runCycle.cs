@@ -25,7 +25,7 @@ public class runCycle : MonoBehaviour
         {
             spriteRenderer.sprite = runSprites[i];
             i++;
-            if (i >= 16)
+            if (i >= runSprites.Length)
             {
                 i = 0;
             }
