@@ -6,7 +6,7 @@ using UnityEngine;
 public class scoreManager : MonoBehaviour
 {
     private int score = 0;
-    private int energy = 0;
+    private int energy = 100;
 
     public int increment = 1;
 

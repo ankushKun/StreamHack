@@ -6,6 +6,7 @@ using StreamChat.Core.Helpers;
 using StreamChat.Core.Models;
 using StreamChat.Core.StatefulModels;
 using StreamChat.Libs.Auth;
+using TMPro;
 using UnityEngine;
 
 public class ChatManager : MonoBehaviour
@@ -13,9 +14,19 @@ public class ChatManager : MonoBehaviour
     private IStreamChatClient client;
     private IStreamChannel _mainChannel;
 
+    public TMP_Text in1;
+    public TMP_Text in2;
+    public TMP_Text in3;
+    public TMP_Text in4;
+
+
     private void OnMessageReceived(IStreamChannel channel, IStreamMessage message)
     {
-        Debug.Log($"Message \"{message.Text}\" was sent by {message.User.Name} to {channel.Id} channel");
+        // Debug.Log($"Message \"{message.Text}\" was sent by {message.User.Name} to {channel.Id} channel");
+        in4.text = in3.text;
+        in3.text = in2.text;
+        in2.text = in1.text;
+        in1.text = message.Text;
     }
 
     // private void OnMessageDeleted(IStreamChannel channel, IStreamMessage message, bool isHardDelete)
@@ -42,11 +53,11 @@ public class ChatManager : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            var messageText = "Hello, world! Current local time is: " + DateTime.Now;
-            SendMessageAsync(messageText).LogExceptionsOnFailed();
-        }
+        // if (Input.GetKeyDown(KeyCode.S))
+        // {
+        //     // var messageText = "Hello, world! Current local time is: " + DateTime.Now;
+        //     SendMessageAsync(messageText).LogExceptionsOnFailed();
+        // }
     }
 
     private async Task StartChatAsync()
@@ -65,15 +76,19 @@ public class ChatManager : MonoBehaviour
 
         foreach (var message in _mainChannel.Messages)
         {
-            Debug.Log($"Channel message: {message.Text}, sent by: {message.User.Id} on {message.CreatedAt}");
+            // Debug.Log($"Channel message: {message.Text}, sent by: {message.User.Id} on {message.CreatedAt}");
+            in4.text = in3.text;
+            in3.text = in2.text;
+            in2.text = in1.text;
+            in1.text = message.Text;
         }
 
     }
 
-    private async Task SendMessageAsync(string text)
+    public async Task SendMessageAsync(string text)
     {
         var message = await _mainChannel.SendNewMessageAsync(text);
-        Debug.Log($"Message sent: {message.Text}");
+        // Debug.Log($"Message sent: {message.Text}");
     }
 
     private void OnDestroy()
