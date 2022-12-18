@@ -16,6 +16,7 @@ public class TextLink : MonoBehaviour, IPointerClickHandler
 
     string myText;
 
+
     void Start()
     {
         populateText();
@@ -61,4 +62,6 @@ public class TextLink : MonoBehaviour, IPointerClickHandler
     {
         Application.OpenURL(url);
     }
+
+
 }
