@@ -1503,8 +1503,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -21, y: 268}
-  m_SizeDelta: {x: 900, y: 220}
+  m_AnchoredPosition: {x: -21, y: 337.87354}
+  m_SizeDelta: {x: 900, y: 80.253}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &664737822
 MonoBehaviour:
@@ -1837,6 +1837,7 @@ GameObject:
   - component: {fileID: 868017213}
   - component: {fileID: 868017212}
   - component: {fileID: 868017211}
+  - component: {fileID: 868017214}
   m_Layer: 0
   m_Name: Dropdown
   m_TagString: Untagged
@@ -1919,13 +1920,25 @@ MonoBehaviour:
     m_Options:
     - m_Text: React
       m_Image: {fileID: 0}
-    - m_Text: Python
+    - m_Text: JavaScript
       m_Image: {fileID: 0}
     - m_Text: Web3
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 868017214}
+        m_TargetAssemblyTypeName: DropDownScript, Assembly-CSharp
+        m_MethodName: onValueChange
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!114 &868017212
 MonoBehaviour:
@@ -1965,6 +1978,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 868017209}
   m_CullTransparentMesh: 1
+--- !u!114 &868017214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868017209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ade03d8b3f5bb4171bc4ab95bf9bcbd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainText: {fileID: 1378869549}
 --- !u!1 &887883538
 GameObject:
   m_ObjectHideFlags: 0
@@ -2803,7 +2829,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -10.135807, y: 41.16611}
-  m_SizeDelta: {x: 500, y: 185.3781}
+  m_SizeDelta: {x: 700, y: 185.3781}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1378869549
 MonoBehaviour:
